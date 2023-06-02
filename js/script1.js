@@ -1,6 +1,6 @@
 //let url = 'http://localhost:5040'
 let url='https://mongodb1-clqe.onrender.com'
-function LOAD() {
+function LOAD(e) {
     $.ajax({
         url: url + "/fetch",
         type: "GET",
